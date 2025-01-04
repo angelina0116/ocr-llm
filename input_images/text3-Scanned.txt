@@ -1,0 +1,41 @@
+* Reprinted from Communications in Pure and Applied Mathematics, Vol. 13, No.1 (February 1960). New York:
++ John Witey & Sons, Inc, Copyright © 1960 by John Wiley & Sous, Inc. —— .
+THE UNREASONABLE EFFECTIVENSS
+OF MATHEMATICS IN.THE NATURAL.
+Eugene Wigner.
+Mathematics, rightly viewed, possesses not only truth, but supreme beauty cold and.
+‘austere, like that of sculpuire, without appeal fo any part of our Weaker nature, without
+the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern:
+perfection’ such as only the greatest art can show. The irie spirit of delight, the
+exaltation, the sense of being more than Man, which is the touchstone of the highest:
+excellence, is to be found in mathematics as surely as in poetry.
+*$ BERTRAND RUSSELL, Study of Mathematics
+“There is a story about two friends, who were classmates in bigh school, talking about their jobs.
+;,One of them became a statistician and was working on population trends. He showed a reprint to his
+former classtnate. The reprint started, as usual, with the Gaussian distribution and the statistician
+explained to his former classmate the meaning of the ‘symbols for the’ actual population, far the
+j average population, and so on. His classmate’ was a bit incredulous and was not quite sure whether
+“the statistician was pulling his leg.."How can you know thst?” was his query: "And what is this
+: symbol here?" "Oh,".. said: the: statistician, ."this:is pi." "What ‘is: that?":"The ratio of ‘the
+“circumference of the circle to its didmeter." “Well, now you are pushing your joke too far,” said the
+classmate, "surely the population has nothing to do with the circumference of the circle.” :
+[ Naturally, we ate inclined to smile about the simplicity of the classmates approach. Nevertheless,
+éwhen I heard this story, I had to admit to’ an eerie feeling because, surely, the reaction of the
+classmate betrayed only plain common sense. I was even more confused when, not many days later,
+jsomeone came to me and expressed his bewilderment [The remark to be quoted was made by F.
+Werner when he was a student in Princeton.) with the fact that we make a rather narrow selection
+when choosing the data on which we test our theories: "How do we know that, if we made a theory
+“which focuses its ‘attention an phenomena we disregard and disregards some of the phenomena now
+commanding our attention, that we could not build another theory which has little in common with
+“the present one but which, nevertheless, explains just as many phenomena as the present theory?" It
+: has to be admitted that we have no definite evidence that there is no such theory.
+‘The preceding two stories illustiate’the two main points which are‘the subjects of. thé present
+“discourse: The first point is that mathematical concepts tim up in entirely unexpected connections.
+Moreover, they often permit an unexpectedly close and accurate description of the phenomena in
+“these connections. Secondly, just because of this circumstance, and because we do not understand
+ythe reasons‘ of their usefulness, .we! cannot: know’ whether. a: theory: formulated: in ‘terms of
+Zmathematical concepts is uniquely appropriate. We are in a position similar to that of a man who
+was provided with a bunch of keys and who, having to open several doors in succession, always hit
+‘on the right key on the first or second trial. He became skeptical conceming the uniqueness of the
+coordination between keys and doors.” aan a we es
+

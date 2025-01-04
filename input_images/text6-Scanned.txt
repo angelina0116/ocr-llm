@@ -1,0 +1,35 @@
+The physicist is interested in discovering the laws of inanimate nature. In order to understand this
+statement, it is necessary to analyze the concept,."law of nature."
+
+The world around us is of baffling complexity and the most obvious fact about it is that we cannot
+predict the future. Although the joke attributes only to the optimist the view that the future is
+uncertain, the optimist is tight in this case: the future is unpredictable. It is, as Schrodinger has
+remarked, a miracle that in spite of the baffling complexity of the world, certain regularities in the
+events could be discovered: One such regularity, discovered by Galileo, is that two:rocks, dropped
+at the same time from the same height, reach the ground atthe same time. The-laws of nature are
+concermed with such regularities. Galileo’s regularity is a prototype of a large class of regularities.
+It is a surprising regularity for three reasons.
+
+The first reason that it is surprising is that it is true:not only in Pisa, and in Galileo’s time, it is true
+everywhere on the Earth, was always true, and will always be true. This property of the regularity is
+a recognized invariance property and, as I had occasion to point out some time ago, without.
+invariance principles similar to those implied in the preceding generalization of Galileo’s
+observation, physics would not be possible. The second surprising feature is that the regularity
+which we are discussing is independent of so many conditions which could have an effect on it. It is
+valid no matter whether it rains or. not, whether the experiment is carried out in.a room or from.the
+Leaning Tower, no matter whether the person who drops the rocks is aman or a woman. It is valid
+even if the two rocks are dropped, simultaneously and from the same height, by two different
+people. There are, obviously, innumerable other conditions which are all immaterial from the point
+of view of the validity of Galileo’s regularity. The irrelevancy of so many circumstances which
+could play a role in the phenomenon observed has: also been called an invariance. However, this
+invariance is of a different character from the preceding one since it cannot be formulated as a
+general principle. The exploration of the conditions which do, and which do not, influence a
+phenomenon is’ part of the early experimental exploration of a field. It. is the skill and ingenuity of
+the experimenter which show him phenomena which depend on a‘relatively narrow set.of relatively
+easily realizable and reproducible conditions. ['see,.in this connection, the graphic essay of M.
+Deutsch, Daedalus 87, 86 (1958). A. Shimony has called my attention to.a similar passage in C. S.
+Peirce’s Essays in the.Philosophy of Science (New York: The Liberal Arts Press, 1957), p. 237.] In
+the present case, Galileo’s restriction of his observations to relatively heavy bodies was the most
+important step in this regard. Again, it is true that if there were no phenomena which are
+independent of all but a manageably small set of conditions, physics would be impossible.
+

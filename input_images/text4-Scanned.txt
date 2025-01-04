@@ -1,0 +1,49 @@
++ Most of what will be, said on these questions will not be new; it has probably occurred to most
+“scientists in one form or another. My principal aim is to illuminate it from several sides. The first
+point is that the enormous usefulness of matheniatics in the natural sciences is samething bordering
+{on the mysterious and that there is no rational explanation for it. Second, it is just this uncanny
+“usefulness ‘of mathematical concepts that raises the question of the uniqueness of aur physical
+: theories, In order to establish the first point, that mathematics plays an unreasonably important role
+in physics; it will be useful to say. 2 few.words’on the question, "What is mathematics?", then,
+What is physics", then, haw mathematics enters physical theories, and last, why the success of
+-nathemiatics in its rote in physics appears so baffling, Much less will be said an the second point:
+{the uniqueness of the theories of physics. A proper answer to this question wauld require elaborate
+experimental and theoretical work which has not been undertaken to date. “* Sw esse
+WHAT IS MATHEMATICS?
+‘'Samebody once said that philosophy is the misuse of a terminolagy which was invented just for this
+*'purpose.[ This statement is quoted here from W. Dubistav's Die Philosophie der Mathematik in der
+“Gegenwart (Bertin: Junker and Durinhaupt Verlag, 1932), p. t.] In the same vein, 1 would say that
+‘mathematics. is the science’ of skillful operations with concepts’ and rules invented ‘just’ for this
+“purpose. The principal emphasis is on the invention of concepts. Mathematics would soon run out
+of interesting theorems if these had to be formulated in terms of the concepts which already appear
+“in the axioms, Furthermore, whereas it is unquestionably’ true that the concepts of elementary
+mathematics and particularly elementary geometry were formulated to describe entities which are
+directly suggested by the actual world, the same daes not seem to be true of the more advanced
+“concepts, in particular the concepts which play such an important role in physics. Thus, the rules for
+{Operations with pairs of numbers are obviously designed to give the'same results as the operations
+«with fractions which we first leamed without reference to."pairs of numbers.":The rules for the
+* operations with sequences, that is; with irrational numbers, still belong to the category of rules
+which were determined so‘as to reproduce mules for the operations with quantities which were
+already. known’ to us,-Most more advanced mathematical’ concepts, such as complex numbers,
+j algebras, linear operators, Borel sets + ‘and this list could be continued almost indefinitely = were so
+devised that they are apt subjects on which the mathematician can demonstrate his ingenuity and
+“sense of formal beauty. In fact, the definition of these concepts, with a realization that interesting
+and ingenious ‘considerations : could: be. applied :to them,"is the: first demonstration ‘of ‘the
+ingeniousness of the mathematician who defines them. The depth of thought which goes into the
+formulation of the mathematical concepts is later justified by the skill with which these concepts are
+‘used.” The great mathematician ‘fully,’ almost ruthlessly, ‘exploits ‘the? domain ‘of permissible
+“reasoning and skirts the impermissible. That his recklessness does not lead him into a morass of
+contradictions is a miracte in itself; certainly it is hard to believe that our reasoning power was
+. brought, by Darwin’s process of. natural selection, to the perfection‘which it seems to possess.
+“However, this is not our present subject. The principal point which will have to be recalled later is
+that the mathematician could formulate only a handful of interesting theorems without defining
+“concepts beyond those contained in the axioms and that the concepts outside those contained in the
+axioms are defined with a view of permitting ingenious logical operations which appeal to our
+aesthetic sense both as operations and also in their results of great generality and simplicity. [Af
+Potanyi, in his Personal Knowledge (Chicago: University of Chicago Press, 1958), says: "All these
+difficulties are but consequences of our refitsal to see that mathematics cannot be defined without
+acknowledging its most obvious feature: namely, that it is interesting" (p. 188)).
+<The complex numbers provide a particularly striking example for the foregoing. Certainly, nothing
+in our experience suggests the intraduction of these quantities. Indeed, if a mathematician is asked
+‘to: justify his interest in‘complex numbers, he will paint, with some indignation, to, the many
+

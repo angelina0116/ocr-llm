@@ -14,10 +14,13 @@ from skimage.filters import threshold_local
 from PIL import Image
 import pytesseract
 
+
+base_directory = os.getcwd()
+set10_directory = os.path.join(base_directory, "set10")
 # exploring the directory for all jpg files
-for file in os.listdir("/home/deepshikha/Workspace/Text-Extraction-From-Image/set10"):
+for file in os.listdir(set10_directory):
     if file.endswith(".jpg"):
-        file_path = "/home/deepshikha/Workspace/Text-Extraction-From-Image/set10/" + str(file)
+        file_path = os.path.join(set10_directory, file)
         # reading file with cv2
         img = cv2.imread(file_path)
         ratio = img.shape[0]/500.0
@@ -34,7 +37,7 @@ for file in os.listdir("/home/deepshikha/Workspace/Text-Extraction-From-Image/se
         thresh = cv2.threshold(gray, 225, 255, cv2.THRESH_BINARY_INV)[1]
 
         # finding contours
-        (_, cnts, _) = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        cnts, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         
         # draw contours on image 
         cv2.drawContours(img, cnts, -1, (240, 0, 159), 3)
@@ -54,14 +57,14 @@ for file in os.listdir("/home/deepshikha/Workspace/Text-Extraction-From-Image/se
         gray = cv2.cvtColor(dst, cv2.COLOR_BGR2GRAY)
         gray = cv2.medianBlur(gray, 3)
         gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-        scanned_file_name = "/home/deepshikha/Workspace/Text-Extraction-From-Image/set10/" + str(file[:-4]) + "-Scanned.png" 
+        scanned_file_name = os.path.join(set10_directory, f"{file[:-4]}-Scanned.png")
         cv2.imwrite(scanned_file_name, dst)
         # cv2.imshow("gray.png", dst)
         # cv2.waitKey()
 
         # fetching text from the image and storing it into a text file
         file_text = pytesseract.image_to_string(Image.open(scanned_file_name))
-        text_file_name = "/home/deepshikha/Workspace/Text-Extraction-From-Image/set10/" + str(file[:-4]) + "-Scanned.txt" 
+        text_file_name = os.path.join(set10_directory, f"{file[:-4]}-Scanned.txt")
         with open(text_file_name, "a") as f:
             f.write(file_text + "\n")
         # import pdb; pdb.set_trace()
