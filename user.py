@@ -8,6 +8,8 @@ class User:
         self.username = username
         self.password = self.hash_password(password)
         self.user_id = str(uuid.uuid4())
+        self.known_words = []
+        self.unknown_words = []
 
     @staticmethod
     def hash_password(password):
@@ -18,7 +20,9 @@ class User:
         user_ref.set({
             'username': self.username,
             'password': self.password,
-            'user_id': self.user_id
+            'user_id': self.user_id,
+            'known_words': [],
+            'unknown_words': []
         })
 
     @staticmethod
@@ -34,4 +38,3 @@ class User:
         if user and user['password'] == User.hash_password(password):
             return True
         return False
-
