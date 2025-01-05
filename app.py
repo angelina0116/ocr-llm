@@ -6,6 +6,7 @@ import cv2
 import numpy as np
 from PIL import Image
 import pytesseract
+import re
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Session Management
@@ -19,7 +20,6 @@ def process_image(file_path):
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     thresh = cv2.threshold(gray, 225, 255, cv2.THRESH_BINARY_INV)[1]
     
-    # Contour detection
     cnts, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     mask = np.zeros(img.shape[:2], np.uint8)
 
@@ -33,25 +33,57 @@ def process_image(file_path):
 
     scanned_file_name = os.path.join(UPLOAD_FOLDER, "processed.png")
     cv2.imwrite(scanned_file_name, dst)
+    
+    # OCR to extract text
     text = pytesseract.image_to_string(Image.open(scanned_file_name))
     
-    return text.split()
+    # Process the extracted text
+    processed_words = process_text(text)
+    
+    return processed_words
+
+
+def process_text(text):
+    # Convert text to lowercase
+    text = text.lower()
+    
+    # Remove numbers and punctuations (keep only letters and spaces)
+    text = re.sub(r'[^a-z\s]', '', text)
+    
+    # Split text into words
+    words = text.split()
+    
+    # Remove duplicates by converting to set, then back to list
+    unique_words = list(set(words))
+    
+    # Sort words alphabetically (optional)
+    unique_words.sort()
+
+    return unique_words
 
 # Update user's word lists in Firestore
 def update_word_lists(username, extracted_words):
     user_ref = db.collection('users').document(username)
     user_data = user_ref.get().to_dict()
     
-    known_words = set(user_data.get('known_words', []))
-    unknown_words = set(user_data.get('unknown_words', []))
+    # Normalize and remove duplicates from existing lists
+    known_words = set(word.lower() for word in user_data.get('known_words', []))
+    unknown_words = set(word.lower() for word in user_data.get('unknown_words', []))
     
+    # Process and normalize incoming words
     for word in extracted_words:
+        word = word.lower()  # Ensure new words are lowercase
         if word not in known_words:
-            unknown_words.add(word)
+            unknown_words.add(word)  # Add only if not already known
 
+    # Update Firestore with de-duplicated lists
     user_ref.update({
-        'unknown_words': list(unknown_words)
+        'known_words': list(known_words),
+        'unknown_words': list(unknown_words)  # Firestore doesn't support sets, so convert back to list
     })
+
+    print("Word lists updated and duplicates removed.")
+
 
 @app.route("/", methods=["GET", "POST"])
 def index():
