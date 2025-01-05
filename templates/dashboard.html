@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to OCR Dashboard</h1>
+    <form action="/dashboard" method="post" enctype="multipart/form-data">
+        <label for="file">Upload or Take a Picture:</label>
+        <input type="file" id="file" name="file" accept="image/*" capture="camera">
+        <button type="submit">Process Image</button>
+    </form>
+
+    {% if text %}
+    <h2>Extracted Text:</h2>
+    <pre>{{ text }}</pre>
+    {% endif %}
+
+    <a href="/logout">Logout</a>
+</body>
+</html>
+
